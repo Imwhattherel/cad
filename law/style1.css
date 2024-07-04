@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #061338;
+    max-width: 100%;
+    }
+   
+    .header{
+    background-color: #c7cc6a;
+    padding-bottom: 25px;
+}
+
+#welcome{
+    text-align: center;
+}
+
+.status{
+    text-align: center;
+    font-size: 30em;
+    font-size: 0.9vw;
+    color: white;
+}
+#teneight{
+    text-align: center;  
+    margin-left: 25%;
+    font-size: 30em;
+    font-size: 2.5vw;
+    border-radius: 5px;
+    
+}
+#tenseven{
+    text-align: center;  
+    margin-left: 30%;
+    font-size: 30em;
+    font-size: 2.5vw;
+margin-left: 1px;
+border-radius: 5px;
+
+}
+#tensix{
+    text-align: center;  
+    margin-left: 30%;
+    font-size: 30em;
+    font-size: 2.5vw;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+#tenfourone{
+    text-align: center;  
+    margin-left: 30%;
+    font-size: 30em;
+    font-size: 2.5vw;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+#tenfourtwo{
+    text-align: center;  
+    margin-left: 30%;
+    font-size: 30em;
+    font-size: 2.5vw;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+#tentwothree{
+    text-align: center;  
+    margin-left: 30%;
+    font-size: 30em;
+    font-size: 2.5vw;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+#tennineseven{
+    text-align: center;  
+    margin-left: 30%;
+    font-size: 30em;
+    font-size: 2.5vw;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+#panic{
+    text-align: center;  
+    margin-left: 30%;
+    font-size: 30em;
+    font-size: 2.5vw;
+    margin-left: 1px;
+    background-color: red;
+    border-radius: 5px;
+}
+#panicc{
+    text-align: center;  
+    margin-left: 50px;
+    margin-left: 1px;
+    border-radius: 5px;
+    font-size: 30em;
+font-size: 0.5vw;
+}
+#platecheckb{
+ text-align: center;  
+    margin-left: 35%;
+    font-size: 30em;
+    font-size: 0.9vw;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#namecheckb{
+    text-align: center;  
+      font-size: 30em;
+    font-size: 0.9vw;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#saddressb{
+text-align: center;  
+margin-left: 30%;
+    font-size: 30em;
+    font-size: 0.9vw;
+    margin-left: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#crcallb{
+text-align: center;  
+margin-left: 30%;
+    font-size: 30em;
+    font-size: 0.9vw;
+    margin-left: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+#cciteb{
+text-align: center;  
+margin-left: 30%;
+    font-size: 30em;
+    font-size: 0.9vw;
+    margin-left: 1px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.callsbox{
+    text-align: center;
+    width: 20%;
+  border: 3px solid darkslategrey;
+  border-radius: 1%;
+  padding: 2%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: green;
+  
+}
+#pactive{
+    color: #061338;
+    font-size: 30em;
+    font-size: 2vw;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+}
+#signalactive{
+    color: #061338;
+    font-size: 30em;
+    font-size: 2vw;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+}
+table{
+    text-align: center;
+    font-size: 30em;
+    font-size: 0.9vw;
+    color: green;
+}
+#signalone{
+        text-align: center;  
+        margin-left: 50px;
+        margin-left: 1px;
+        border-radius: 5px;
+        font-size: 30em;
+    font-size: 0.5vw;
+    }

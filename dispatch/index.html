@@ -1,0 +1,156 @@
+<html>
+ <head>
+  <title>Thin Blue Line CAD</title>
+  <link rel="stylesheet" href="style1.css">
+ </head>
+ <body>
+  
+    <div class="header" id="myHeader">
+        <br>
+        <h1 id="welcome">Welcome To Thin Blue Line CAD</h1>
+      </div>
+<div class="status">
+  <h2 id="pactive"> Panic Button Activated By: Unit Number At: street/location Postal: postal</h2>
+  <h2 id="signalactive"> Signal 100 Is Active</h2>
+  <h2 id="tenactive"> 10-3</h2>
+</div>
+<div class="sButtons">
+  <Button id="crcallb" type="button">Create Call </Button>
+    <Button id="panicc" type="button" onclick=" snd4.play(), colorFunction2(),colorFunction3(), colorFunction5(), colorFunction7(), colorFunction9(),colorFunction12()" > Clear Panic</Button>
+    <Button id="onec" type="button" onclick=" snd4.play(),colorFunction13(),colorFunction14() " > Clear Signal 100</Button>
+    <Button id="tenc" onclick="snd4.play(), colorFunction17(), colorFunction18()" type="button" >Clear 10-3</Button>
+   <Button id="sigone" onclick="snd3.play(), colorFunction10(), colorFunction11()" type="button" >Signal 100</Button> 
+   <Button id="tenthree" onclick="snd5.play(), colorFunction15(), colorFunction16()" type="button" >10-3</Button> 
+
+</div>
+<div class="Buttons">
+    <Button id="platecheckb" type="button">Search Plate</Button>
+    <Button id="namecheckb" type="button">Search Name</Button>
+    <Button id="saddressb" type="button">Search Address</Button>
+    
+
+
+    
+</div>
+<div class="callsbox">
+    <h2>Active Calls</h2>
+   
+       <p id="call"></p>
+  
+      
+</div>
+<div class="unitsbox">
+  <h2>Active Units</h2>
+  </div>
+
+ </body>
+</html>
+<script>
+
+function colorFunction() {
+  document.getElementById("panic").style.backgroundColor = "orange";
+}
+function colorFunction2() {
+  document.getElementById("panic").style.backgroundColor = "red";
+}
+
+function colorFunction3() {
+  document.body.style.backgroundColor = "#061338";
+}
+function colorFunction4() {
+  document.getElementById("pactive").style.backgroundColor = "orange";
+}
+function colorFunction5() {
+  document.getElementById("pactive").style.backgroundColor = "#061338";
+}
+function colorFunction6() {
+  document.getElementById("pactive").style.color = "black";
+}
+function colorFunction7() {
+  document.getElementById("pactive").style.color = "#061338";
+}
+
+function colorFunction9() {
+  document.getElementById("signalactive").style.color = "#061338";
+}
+function colorFunction10() {
+  document.getElementById("signalactive").style.backgroundColor = "red";
+}
+function colorFunction11() {
+  document.getElementById("signalactive").style.color = "black";
+}
+function colorFunction12() {
+  document.getElementById("signalactive").style.backgroundColor = "#061338";
+}
+function colorFunction13() {
+  document.getElementById("signalactive").style.backgroundColor = "#061338";
+}
+function colorFunction14() {
+  document.getElementById("signalactive").style.color = "#061338";
+}
+function colorFunction15() {
+  document.getElementById("tenactive").style.backgroundColor = "orange";
+}
+function colorFunction16() {
+  document.getElementById("tenactive").style.color = "black";
+}
+function colorFunction17() {
+  document.getElementById("tenactive").style.backgroundColor = "#061338";
+}
+function colorFunction18() {
+  document.getElementById("tenactive").style.color = "#061338";
+}
+
+
+    var snd = new Audio("audio/emergency_button.wav");
+    var snd2 = new Audio("audio/newcall.mp3");
+    var snd3 = new Audio("audio/signal100.mp3");
+    var snd4 = new Audio("audio/channel_held.wav");
+    var snd5 = new Audio("audio/ten_three.wav");
+    
+    const btn = document.getElementById('panic');
+
+
+
+
+    
+    function fun() {  
+  
+
+  alert ("Panic Buttion Pushed By: unit, At: street name/location, Nearest Postal: postal");  
+
+}  
+
+document.getElementById("statust").innerHTML = "Status: 10-42";
+
+
+function change_text8(){
+    document.getElementById("statust").innerHTML = "Status: 10-8";
+}
+function change_text7(){
+    document.getElementById("statust").innerHTML = "Status: 10-7";
+}
+function change_text6(){
+    document.getElementById("statust").innerHTML = "Status: 10-6";
+}
+function change_text41(){
+    document.getElementById("statust").innerHTML = "Status: 10-41";
+}
+function change_text42(){
+    document.getElementById("statust").innerHTML = "Status: 10-42";
+}
+function change_text23(){
+    document.getElementById("statust").innerHTML = "Status: 10-23";
+}
+function change_text97(){
+    document.getElementById("statust").innerHTML = "Status: 10-97";
+}
+function change_textcall(){
+    document.getElementById("call").innerHTML = "New Call Assigned";
+}
+function change_textclear(){
+    document.getElementById("call").innerHTML = "";
+}
+
+
+</script>
